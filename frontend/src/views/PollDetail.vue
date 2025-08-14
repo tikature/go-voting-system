@@ -66,10 +66,10 @@
         </div>
         
         <div class="poll-actions">
-          <button @click="copyPollLink" class="btn-secondary">
+          <button @click="copyPollLink" class="poll-btn cherry">
             📋 Copy Poll Link
           </button>
-          <button @click="refreshResults" class="btn-secondary">
+          <button @click="refreshResults" class="poll-btn cherry">
             🔄 Refresh Results
           </button>
         </div>
@@ -255,6 +255,51 @@ export default {
 .poll-voting {
   margin-bottom: 40px;
 }
+
+.poll-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.poll-btn.blue {
+  background-color: #007bff;
+}
+
+.poll-btn.cherry {
+  background-color: #c23854ff;
+}
+.poll-btn.cherry:hover {
+  background-color: #c23854ff;
+}
+
+.poll-btn.blue:hover {
+  background-color: #0069d9;
+}
+
+.poll-btn.green {
+  background-color: #28a745;
+}
+
+.poll-btn.green:hover {
+  background-color: #218838;
+}
+
+
+.poll-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
+}
+
 
 .voting-section, .results-section {
   background: var(--white);
