@@ -4,11 +4,8 @@
       <div class="nav-brand">
         <router-link to="/" class="brand-link">
           <span class="brand-icon"><img 
-      src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGVhMW5ic2dxNno0NzM1NDJqcGZpMjFlemYzNDA1NXR2ajRqaXNxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/78eF7jSvqDxcZK19ps/giphy.gif" 
-       alt="Fun GIF"
-      width="50"    <!-- lebar dalam px -->
-      height="20"   <!-- tinggi dalam px -->
-    /></span>
+      src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGVhMW5ic2dxNno0NzM1NDJqcGZpMjFlemYzNDA1NXR2ajRqaXNxcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/78eF7jSvqDxcZK19ps/giphy.gif" alt="Fun GIF"
+      width="50" height="50"/></span>
           VotingApp
         </router-link>
       </div>
