@@ -1,0 +1,63 @@
+/* Red Cherry Color Scheme */
+:root {
+  --cherry-red: #DC143C;
+  --cherry-red-light: #FF6B6B;
+  --cherry-red-dark: #B91C3C;
+  --cherry-pink: #FFE4E6;
+  --cherry-bg: #FFF5F5;
+  --text-dark: #2D3748;
+  --text-light: #718096;
+  --white: #FFFFFF;
+  --gray-100: #F7FAFC;
+  --gray-200: #EDF2F7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--cherry-bg);
+  color: var(--text-dark);
+}
+
+.btn-primary {
+  background-color: var(--cherry-red);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--cherry-red-dark);
+  transform: translateY(-2px);
+}
+
+.card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(220, 20, 60, 0.1);
+  border: 1px solid var(--cherry-pink);
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--gray-200);
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--cherry-red-light);
+}
