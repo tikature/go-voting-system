@@ -43,6 +43,7 @@ Voting System adalah aplikasi berbasis **Golang (Gin Framework)** dan **PostgreS
 <p align="center">
   <img src="captures/create-lp.png" height="250"/>
   <img src="captures/login-lp.png" height="250"/>
+  <br>
   <img src="captures/create-hp.png" height="250"/>
   <img src="captures/login-hp.png" height="250"/>
 </p>
