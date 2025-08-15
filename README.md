@@ -31,7 +31,7 @@ Voting System adalah aplikasi berbasis **Golang (Gin Framework)** dan **PostgreS
 ---
 
 ## 📸 Cuplikan Tampilan (Screenshots)
-### Home
+### 🏠 Home
 <p align="center">
   <img src="captures/home-lp.png" height="250"/>
   <img src="captures/home-lp2.png" height="250"/>
@@ -39,16 +39,32 @@ Voting System adalah aplikasi berbasis **Golang (Gin Framework)** dan **PostgreS
 </p>
 
 ---
-### 🔍 Akses Akun
+### 🔍 Akses
 <p align="center">
   <img src="captures/create-lp.png" height="250"/>
+  <img src="captures/login-lp.png" height="250"/>
   <img src="captures/create-hp.png" height="250"/>
+  <img src="captures/login-hp.png" height="250"/>
 </p>
 
 ---
-### 🗺️ Peta Lokasi
+### 💭 All
 <p align="center">
-  <img src="src/assets/image6.png" width="300"/>
-  <img src="src/assets/image7.png" width="300"/>
-  <img src="src/assets/image8.png" width="300"/>
+  <img src="captures/dashboardpoll-lp.png" height="250"/>
+  <img src="captures/dashboard-hp.png" height="250"/>
+  <img src="captures/createpoll-hp.png" height="250"/>
+  <img src="captures/createpoll-hp2.png" height="250"/>
+  <img src="captures/detailpoll-hp.png" height="250"/>
 </p>
+
+
+---
+## 👩‍💻 Tentang Pengembang
+<div align="center">
+
+By **Dewi Atika Muthi**  
+📍 _Informatics Student, Telkom University_  
+📧 **Email:** detikaa10@fmail.com  
+🌐 **GitHub:** [@tikature](https://github.com/tikature)  
+</div>
+
