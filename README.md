@@ -31,18 +31,18 @@ Voting System adalah aplikasi berbasis **Golang (Gin Framework)** dan **PostgreS
 ---
 
 ## 📸 Cuplikan Tampilan (Screenshots)
-### 🌤️ Prakiraan Cuaca Harian Otomatis Sesuai Lokasi Anda
+### Home
 <p align="center">
-  <img src="src/assets/image1.png" width="300"/>
-  <img src="src/assets/image2.png" width="300"/>
-  <img src="src/assets/image3.png" width="300"/>
+  <img src="captures/home-lp.png" height="250"/>
+  <img src="captures/home-lp2.png" height="250"/>
+  <img src="captures/home-hp.png" height="250"/>
 </p>
 
 ---
-### 🔍 Pencarian Cuaca 
+### 🔍 Akses Akun
 <p align="center">
-  <img src="src/assets/image4.png" width="300"/>
-  <img src="src/assets/image5.png" width="300"/>
+  <img src="captures/create-lp.png" height="250"/>
+  <img src="captures/create-hp.png" height="250"/>
 </p>
 
 ---
