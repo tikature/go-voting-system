@@ -1,36 +1,37 @@
 # 🗳️ Voting System
 
-Voting System adalah aplikasi berbasis **Golang (Gin Framework)** dan **PostgreSQL** yang digunakan untuk membuat, mengelola, dan mengikuti voting secara online. Proyek ini mendukung autentikasi pengguna, pembuatan polling, pemilihan opsi, dan pengelolaan data voting secara aman.
+Voting System is an application built with **Golang (Gin Framework)** and **PostgreSQL** for creating, managing, and participating in online voting.  
+This project supports user authentication, poll creation, option selection, and vote data management.
 
 ---
 
-## 📌 Fitur Utama
-- **Autentikasi & Otorisasi**
-  - Login dan registrasi pengguna.
-  - Proteksi API dengan JWT.
-- **Manajemen Polling**
-  - Buat polling baru dengan judul, deskripsi, dan batas waktu.
-  - Tambahkan beberapa pilihan (poll options).
-  - Aktif/nonaktifkan polling.
+## 📌 Key Features
+- **Authentication & Authorization**
+  - User registration and login.
+  - API protection using JWT.
+- **Poll Management**
+  - Create new polls with title, description, and expiration date.
+  - Add multiple poll options.
+  - Enable/disable polls.
 - **Voting**
-  - Pengguna dapat memilih satu opsi pada polling aktif.
-  - Cegah voting ganda untuk polling yang sama.
-- **Laporan & Statistik**
-  - Hitung jumlah suara untuk setiap opsi.
-  - Tampilkan hasil polling secara real-time.
+  - Users can select one option in active polls.
+  - Prevent duplicate votes for the same poll.
+- **Reports & Statistics**
+  - Count votes for each option.
+  - Display poll results in real time.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 - **Backend**: [Golang](https://go.dev/) + [Gin Web Framework](https://gin-gonic.com/)
 - **Database**: [PostgreSQL](https://www.postgresql.org/)
 - **ORM**: [GORM](https://gorm.io/)
-- **Autentikasi**: JSON Web Token (JWT)
-- **Frontend**: (Opsional) Vue.js atau framework frontend lainnya.
+- **Authentication**: JSON Web Token (JWT)
+- **Frontend**: (Optional) Vue.js or any frontend framework.
 
 ---
 
-## 📸 Cuplikan Tampilan (Screenshots)
+## 📸 Screenshots
 ### 🏠 Home
 <p align="center">
   <img src="captures/home-lp.png" height="250"/>
@@ -39,7 +40,7 @@ Voting System adalah aplikasi berbasis **Golang (Gin Framework)** dan **PostgreS
 </p>
 
 ---
-### 🔍 Akses
+### 🔍 Access
 <p align="center">
   <img src="captures/create-lp.png" height="250"/>
   <img src="captures/login-lp.png" height="250"/>
@@ -49,7 +50,7 @@ Voting System adalah aplikasi berbasis **Golang (Gin Framework)** dan **PostgreS
 </p>
 
 ---
-### 💭 All
+### 💭 All Pages
 <p align="center">
   <img src="captures/dashboardpoll-lp.png" height="250"/>
   <img src="captures/dashboard-hp.png" height="250"/>
@@ -58,14 +59,15 @@ Voting System adalah aplikasi berbasis **Golang (Gin Framework)** dan **PostgreS
   <img src="captures/detailpoll-hp.png" height="250"/>
 </p>
 
-
 ---
-## 👩‍💻 Tentang Pengembang
+
+## 👩‍💻 About the Developer
 <div align="center">
 
 By **Dewi Atika Muthi**  
 📍 _Informatics Student, Telkom University_  
 📧 **Email:** detikaa10@fmail.com  
 🌐 **GitHub:** [@tikature](https://github.com/tikature)  
-</div>
 
+💬 *"Code with clarity, build with passion."*
+</div>
